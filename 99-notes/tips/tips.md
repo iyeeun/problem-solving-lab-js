@@ -109,3 +109,76 @@ const arr = Array.from({ length: n }, (_, i) => {
 ```js
 const arr = [...Array(n).keys()];
 ```
+
+### 배열 메소드
+
+#### 추가 / 삭제
+
+```js
+arr.push(1, 2); // 뒤에 추가
+arr.pop(); // 뒤에서 제거
+arr.unshift(1); // 앞에 추가
+arr.shift(); // 앞에서 제거
+```
+
+#### 중간 조작
+
+```js
+arr.splice(1, 2); // splice(start, deleteCount, ...items)
+arr.splice(1, 0, 99); // 1번 위치에 99 삽입
+```
+
+#### 정렬 / 반전
+
+```js
+arr.sort((a, b) => a - b);
+arr.reverse();
+```
+
+#### 채우기 / 복사
+
+```js
+arr.fill(0); // fill(value, start?, end?)
+arr.copyWithin(0, 2, 4); // copyWithin(target, start, end?)
+```
+
+#### 추출 / 복사
+
+```js
+arr.slice(1, 3); // slice(start, end), 원본 배열 유지
+arr.concat([1, 2]); // concat(...arrays), 원본 배열 유지 (arr 변경 X)
+```
+
+#### 변환
+
+```js
+arr.map((x) => x * 2);
+arr.filter((x) => x > 3);
+arr.flat(2); // 평탄화, depth 지정 가능
+arr.flatMap((x) => [x, x * 2]); // map + flat
+```
+
+#### 축약 / 계산
+
+```js
+arr.reduce((a, b) => a + b, 0);
+arr.reduceRight(...) // 오른쪽부터 reduce
+```
+
+#### 탐색
+
+```js
+arr.find((v) => v > 10); // 조건을 만족하는 첫 번째 요소 값 반환, 없으면 undefined
+arr.findIndex((v) => v > 10); // 조건을 만족하는 첫 번째 인덱스 반환, 없으면 -1
+arr.indexOf(5); // 값으로 찾기 (===)
+arr.lastIndexOf(5); // 뒤에서부터 찾기
+arr.includes(5); // true / false 반환
+arr.some((v) => v > 10); // 하나라도 조건 만족하면 true
+arr.every((v) => v > 10); // 전부 조건 만족하면 true
+```
+
+#### 순회
+
+```js
+arr.forEach((v) => console.log(v));
+```
