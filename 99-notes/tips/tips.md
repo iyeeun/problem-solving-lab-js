@@ -1,5 +1,8 @@
 # 🎩 작은 팁 모음
 
+> - [문자열 관련](#문자열-관련)
+> - [배열 관련](#배열-관련)
+
 ## 문자열 관련
 
 #### 문자열 n회 반복
@@ -40,3 +43,69 @@ str.toLowerCase();
 | `split()`               | String→Array | ❌        | -              | -           | 문자열 분해         |
 | `splice()`              | Array        | ✅ (변경) | index 기반     | ❌          | 배열 직접 수정      |
 | `join()`                | Array→String | ❌        | -              | -           | 배열 → 문자열       |
+
+## 배열 관련
+
+### 배열 초기화
+
+#### 특정 길이만큼 0으로 초기화
+
+```js
+const arr = new Array(n).fill(0);
+```
+
+#### 특정 값으로 초기화
+
+```js
+const arr = Array(n).fill(5);
+```
+
+#### 동적 값 초기화
+
+```js
+const arr = Array.from({ length: n }, (_, i) => i);
+```
+
+#### 범위 배열 생성
+
+```js
+const range = (start, end) =>
+  Array.from({ length: end - start + 1 }, (_, i) => i + start);
+```
+
+#### 2차원 배열 초기화
+
+```js
+const arr = Array.from({ length: 3 }, () => Array(3).fill(0));
+```
+
+#### n차원 배열 일반 패턴
+
+```js
+function createNDArray(dimensions, value = 0) {
+  if (dimensions.length === 0) return value;
+  const [size, ...rest] = dimensions;
+  return Array.from({ length: size }, () => createNDArray(rest, value));
+}
+```
+
+#### 객체 배열 초기화
+
+```js
+const arr = Array.from({ length: n }, () => ({ count: 0 }));
+```
+
+#### 동적 조건 초기화
+
+```js
+const arr = Array.from({ length: n }, (_, i) => {
+  if (i % 2 === 0) return 0;
+  return 1;
+});
+```
+
+#### 인덱스 기반 초기화
+
+```js
+const arr = [...Array(n).keys()];
+```
