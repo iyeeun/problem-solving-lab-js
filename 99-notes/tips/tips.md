@@ -44,6 +44,12 @@ str.toLowerCase();
 | `splice()`              | Array        | ✅ (변경) | index 기반     | ❌          | 배열 직접 수정      |
 | `join()`                | Array→String | ❌        | -              | -           | 배열 → 문자열       |
 
+#### 문자열 비교
+
+- `str.startsWith(comp)` : comp로 시작하는지 확인
+- `str.endsWith(comp)` : comp로 끝나는지 확인
+- `str.includes(comp)` : comp가 포함되어 있는지 확인
+
 ## 배열 관련
 
 ### 배열 초기화
