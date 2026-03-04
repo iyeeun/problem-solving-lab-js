@@ -50,6 +50,13 @@ str.toLowerCase();
 - `str.endsWith(comp)` : comp로 끝나는지 확인
 - `str.includes(comp)` : comp가 포함되어 있는지 확인
 
+#### 문자열 <-> 아스키코드
+
+- `str.charCodeAt(index)` : 특정 위치의 문자를 **UTF-16 코드값(유니코드 값)** 으로 반환
+- `String.fromCharCode(code)` : 코드값을 문자로 변환, 여러 개도 가능
+- `str.codePointAt(index)` : 유니코드 전체 범위 지원 (이모지 포함)
+- `String.fromCodePoint(code)` : `fromCharCode`의 확장판 (이모지 지원)
+
 ## 배열 관련
 
 ### 배열 초기화
