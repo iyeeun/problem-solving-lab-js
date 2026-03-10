@@ -197,6 +197,8 @@ arr.every((v) => v > 10); // 전부 조건 만족하면 true
 arr.forEach((v) => console.log(v));
 ```
 
+### [2차원 배열 조작/순회 패턴](/99-notes/patterns/2d-array.md)
+
 ## 숫자 관련
 
 ### 숫자 메소드
