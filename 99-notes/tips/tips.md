@@ -207,3 +207,5 @@ arr.forEach((v) => console.log(v));
 - `Math.ceil` : 올림
 - `Math.round` : 반올림
 - `Math.trunc` : 소수점 제거
+
+### [최대공약수 & 최소공배수 패턴](/99-notes/patterns/gcd.md)
