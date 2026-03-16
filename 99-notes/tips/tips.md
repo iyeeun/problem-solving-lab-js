@@ -208,11 +208,13 @@ arr.forEach((v) => console.log(v));
 - `Math.round` : 반올림
 - `Math.trunc` : 소수점 제거
 
-### [최대공약수 & 최소공배수 패턴](/99-notes/patterns/gcd.md)
-
 ### BigInt 만들기
 
 - 일반 숫자 : 뒤에 `n` 붙이기
   - `2n`
 - 변수 : `BigInt()`로 생성하기
 - 계산할 때 일반 Number 타입과 계산하면 TypeError 발생 주의
+
+### [최대공약수 & 최소공배수 패턴](/99-notes/patterns/gcd.md)
+
+### [소수 패턴](/99-notes/patterns/prime-number.md)
