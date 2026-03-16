@@ -11,8 +11,8 @@
 ## 목차
 
 1. [데이터 타입](./01-data-type/README.md)
-2. 실행 컨텍스트
-3. this
+2. [실행 컨텍스트](./02-execution-context/README.md)
+3. [this](./03-this/README.md)
 4. 콜백 함수
 5. 클로저
 6. 프로토타입
