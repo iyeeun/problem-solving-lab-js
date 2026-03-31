@@ -1,0 +1,27 @@
+# 프로그래머스 코딩테스트 고득점 Kit
+
+## 유형
+
+### 1. 해시
+
+- [완주하지 못한 선수](/02-problems/programmers/practice/42576.md)
+- [폰켓몬](/02-problems/programmers/practice/1845.md)
+- [같은 숫자는 싫어](/02-problems/programmers/practice/12906.md)
+
+### 2. 스택/큐
+
+### 3. 힙 (Heap)
+
+### 4. 정렬
+
+### 5. 완전탐색
+
+### 6. 탐욕법 (Greedy)
+
+### 7. 동적계획법 (Dynamic Programming)
+
+### 8. 깊이/너비 우선 탐색 (DFS/BFS)
+
+### 9. 이분탐색
+
+### 10. 그래프
