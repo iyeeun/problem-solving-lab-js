@@ -6,10 +6,15 @@
 
 - [완주하지 못한 선수](/02-problems/programmers/practice/42576.md)
 - [폰켓몬](/02-problems/programmers/practice/1845.md)
+- [전화번호 목록](/02-problems/programmers/practice/42577.md)
+- [의상](/02-problems/programmers/practice/42578.md)
 
 ### 2. 스택/큐
 
 - [같은 숫자는 싫어](/02-problems/programmers/practice/12906.md)
+- [기능개발](/02-problems/programmers/practice/42586.md)
+- [올바른 괄호](/02-problems/programmers/practice/12909.md)
+- [프로세스](/02-problems/programmers/practice/42587.md)
 
 ### 3. 힙 (Heap)
 
