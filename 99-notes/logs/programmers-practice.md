@@ -34,6 +34,9 @@
 - [모의고사](/02-problems/programmers/practice/42840.md)
 - [소수 찾기](/02-problems/programmers/practice/42839.md)
 - [모음사전](/02-problems/programmers/practice/84512.md)
+- [카펫](/02-problems/programmers/practice/42842.md)
+- [피로도](/02-problems/programmers/practice/87946.md)
+- [전력망을 둘로 나누기](/02-problems/programmers/practice/86971.md)
 
 ### 6. 탐욕법 (Greedy)
 
