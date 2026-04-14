@@ -15,7 +15,7 @@
 3. [this](./03-this/README.md)
 4. [콜백 함수](./04-callback-function/README.md)
 5. [클로저](./05-closure/README.md)
-6. 프로토타입
+6. [프로토타입](./06-prototype/README.md)
 7. 클래스
 
 ## 참고
