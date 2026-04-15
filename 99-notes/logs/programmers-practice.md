@@ -41,6 +41,9 @@
 ### 6. 탐욕법 (Greedy)
 
 - [체육복](/02-problems/programmers/practice/42862.md)
+- [조이스틱](/02-problems/programmers/practice/42860.md)
+- [큰 수 만들기](/02-problems/programmers/practice/42883.md)
+- [구명보트](/02-problems/programmers/practice/42885.md)
 
 ### 7. 동적계획법 (Dynamic Programming)
 
