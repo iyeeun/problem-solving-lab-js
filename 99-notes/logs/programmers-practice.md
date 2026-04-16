@@ -8,6 +8,7 @@
 - [폰켓몬](/02-problems/programmers/practice/1845.md)
 - [전화번호 목록](/02-problems/programmers/practice/42577.md)
 - [의상](/02-problems/programmers/practice/42578.md)
+- [베스트앨범](/02-problems/programmers/practice/42579.md)
 
 ### 2. 스택/큐
 
@@ -21,6 +22,8 @@
 ### 3. 힙 (Heap)
 
 - [더 맵게](/02-problems/programmers/practice/42626.md)
+- [디스크 컨트롤러](/02-problems/programmers/practice/42627.md)
+- [이중우선순위큐](/02-problems/programmers/practice/42628.md)
 
 ### 4. 정렬
 
