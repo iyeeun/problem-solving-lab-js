@@ -47,6 +47,8 @@
 - [조이스틱](/02-problems/programmers/practice/42860.md)
 - [큰 수 만들기](/02-problems/programmers/practice/42883.md)
 - [구명보트](/02-problems/programmers/practice/42885.md)
+- [섬 연결하기](/02-problems/programmers/practice/42861.md)
+- [단속카메라](/02-problems/programmers/practice/42884.md)
 
 ### 7. 동적계획법 (Dynamic Programming)
 
