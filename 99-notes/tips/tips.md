@@ -3,6 +3,7 @@
 > - [문자열 관련](#문자열-관련)
 > - [배열 관련](#배열-관련)
 > - [숫자 관련](#숫자-관련)
+> - [그래프 관련](#그래프-관련)
 
 ## 문자열 관련
 
@@ -218,3 +219,7 @@ arr.forEach((v) => console.log(v));
 ### [최대공약수 & 최소공배수 패턴](/99-notes/patterns/gcd.md)
 
 ### [소수 패턴](/99-notes/patterns/prime-number.md)
+
+## 그래프 관련
+
+### [Union-Find 알고리즘](/99-notes/patterns/union-find.md)
