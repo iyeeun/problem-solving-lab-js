@@ -52,6 +52,9 @@
 
 ### 7. 동적계획법 (Dynamic Programming)
 
+- [N으로 표현](/02-problems/programmers/practice/42895.md)
+- [정수 삼각형](/02-problems/programmers/practice/43105.md)
+
 ### 8. 깊이/너비 우선 탐색 (DFS/BFS)
 
 - [타겟 넘버](/02-problems/programmers/practice/43165.md)
