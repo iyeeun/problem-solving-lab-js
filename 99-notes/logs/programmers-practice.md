@@ -65,7 +65,13 @@
 - [단어 변환](/02-problems/programmers/practice/43163.md)
 - [아이템 줍기](/02-problems/programmers/practice/87694.md)
 - [여행경로](/02-problems/programmers/practice/43164.md)
+- [퍼즐 조각 채우기](/02-problems/programmers/practice/84021.md)
 
 ### 9. 이분탐색
 
+- [입국심사](/02-problems/programmers/practice/43238.md)
+- [징검다리](/02-problems/programmers/practice/43236.md)
+
 ### 10. 그래프
+
+- [순위](/02-problems/programmers/practice/49191.md)
