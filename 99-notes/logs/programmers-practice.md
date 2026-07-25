@@ -54,6 +54,7 @@
 
 - [N으로 표현](/02-problems/programmers/practice/42895.md)
 - [정수 삼각형](/02-problems/programmers/practice/43105.md)
+- [등굣길](/02-problems/programmers/practice/42898.md)
 
 ### 8. 깊이/너비 우선 탐색 (DFS/BFS)
 
@@ -61,6 +62,9 @@
 - [네트워크](/02-problems/programmers/practice/43162.md)
 - [게임 맵 최단거리](/02-problems/programmers/practice/1844.md)
 - [가장 먼 노드](/02-problems/programmers/practice/49189.md)
+- [단어 변환](/02-problems/programmers/practice/43163.md)
+- [아이템 줍기](/02-problems/programmers/practice/87694.md)
+- [여행경로](/02-problems/programmers/practice/43164.md)
 
 ### 9. 이분탐색
 
